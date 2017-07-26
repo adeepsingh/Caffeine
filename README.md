@@ -1,2 +1,4 @@
-# Caffeine
-This is a custome object oriented interpreter currently in making. Feel free to collaborate by sending a mail at adeepsingh0908@gmail.com. 
+Caffeine
+====
+
+The Caffeine language is made to demonstrate various unique programming paradigms that aren't found in other languages.
