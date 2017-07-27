@@ -50,7 +50,7 @@ public class IDE {
         this.stage = stage;
 
         stage.setScene(scene = new Scene(new ProjectChooser(this), 640, 480));
-        stage.setTitle("Pogo IDE");
+        stage.setTitle("Caffeine IDE");
         stage.show();
     }
 
@@ -176,7 +176,7 @@ public class IDE {
         gitHub.setAccelerator(new KeyCharacterCombination("H", META_DOWN, SHIFT_DOWN));
         gitHub.setOnAction(e -> {
             try {
-                Desktop.getDesktop().browse(new URI("http://www.github.com/nrubin29/Pogo/wiki"));
+                Desktop.getDesktop().browse(new URI("https://github.com/bitcoder95/Caffeine"));
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
@@ -252,7 +252,7 @@ public class IDE {
 
     private void updateTitle() {
         stage.setTitle(
-                "Pogo IDE - " +
+                "Caffeine IDE - " +
                         (currentProject != null ? currentProject.getName() : "No Project") +
                         " - " +
                         (currentFile != null ? currentFile.getName().substring(0, currentFile.getName().lastIndexOf(".")) : "No File")

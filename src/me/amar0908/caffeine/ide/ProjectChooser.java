@@ -16,7 +16,7 @@ import static me.amar0908.caffeine.ide.JFXUtils.spacer;
 class ProjectChooser extends HBox {
 
     public ProjectChooser(final IDE ide) {
-        Text title = new Text("Pogo");
+        Text title = new Text("Caffeine");
         Button newProj = new Button("New Project"), open = new Button("Open Project");
 
         title.setFont(Font.font("Sans serif", FontWeight.NORMAL, FontPosture.REGULAR, 64));

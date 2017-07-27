@@ -9,8 +9,8 @@ public class Project {
 
     private final File caffProj;
 
-    public Project(File pogoProj) {
-        this.caffProj = pogoProj;
+    public Project(File caffProj) {
+        this.caffProj = caffProj;
     }
 
     public String getName() {
@@ -22,7 +22,7 @@ public class Project {
     }
 
     public File getFile(String name) {
-        File file = new File(caffProj, name + ".pogo");
+        File file = new File(caffProj, name + ".caff");
 
         if (!file.exists()) {
             throw new IDEException("File does not exist.");
