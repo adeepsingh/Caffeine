@@ -1,0 +1,5 @@
+class VariableDeclaration
+
+    method main = () -> void
+        string name = "Amar"
+        System.print(name)
